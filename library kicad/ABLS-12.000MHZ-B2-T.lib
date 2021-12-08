@@ -1,0 +1,27 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#(c) SnapEDA 2016 (snapeda.com)
+#This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License (CC BY-SA) with Design Exception 1.0
+#
+# ABLS-12.000MHZ-B2-T
+#
+DEF ABLS-12.000MHZ-B2-T X 0 40 N N 1 L N
+F0 "X" -100 200 50 H V L BNN
+F1 "ABLS-12.000MHZ-B2-T" -100 150 50 H V L BNN
+F2 "HC-49/US" 0 0 50 H I L BNN
+F3 "" 0 0 50 H I L BNN
+F4 "12MHz" 0 0 50 H I L BNN "VALUE"
+F5 "535-9067-1-ND" 0 0 50 H I L BNN "PARTNO"
+DRAW
+P 2 0 0 10 -100 -100 -100 100 N
+P 2 0 0 10 100 100 100 -100 N
+P 2 0 0 10 -50 100 50 100 N
+P 2 0 0 10 50 100 50 -100 N
+P 2 0 0 10 50 -100 -50 -100 N
+P 2 0 0 10 -50 -100 -50 100 N
+X ~ P$1 -200 0 100 R 40 40 0 0 B 
+X ~ P$2 200 0 100 L 40 40 0 0 B 
+ENDDRAW
+ENDDEF
+#
+# End Library
